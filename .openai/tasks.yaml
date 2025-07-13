@@ -1,0 +1,5 @@
+- id: inwood-wx-email
+  command: python weather_slide.py
+  # 06:30 America/New_York = 10:30 UTC
+  schedule: "30 10 * * *"
+  env: .env
